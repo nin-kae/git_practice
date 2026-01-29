@@ -1,0 +1,14 @@
+# 忽略所有 Java 编译后的字节码文件
+*.class
+
+# 忽略临时构建文件夹
+bin/
+target/
+
+# 忽略 Eclipse 项目配置文件（保持团队环境独立）
+.settings/
+.project
+.classpath
+
+# 忽略日志文件
+*.log
